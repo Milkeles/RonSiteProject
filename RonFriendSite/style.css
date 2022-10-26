@@ -1,0 +1,101 @@
+/* MAIN */
+
+body
+{
+    margin: 0;
+    font-family: "Exo 2";
+    background-color: #F9F7F7;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Roboto Mono";
+    font-weight: bold;
+    color: white;
+}
+
+h2, h3, h4, h5, h6
+{
+    font-family: "Roboto";
+}
+
+.banner-large
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/banner_image.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 300px;
+}
+
+.banner-small
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("source/banner_image.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 40px 80px;
+}
+
+.banner-text
+{
+    text-align: center;
+    color: white;
+}
+
+
+/* NAVIGATION */
+
+ul
+{
+    list-style-type: none;
+    background-color: #DBE2EF;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+li
+{
+    display: block;
+    float: left;
+}
+li a
+{
+    text-align: center;
+    display: block;
+    color: #000;
+    padding: 13px 39px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 20px;
+    width: 60px;
+}
+
+li a:hover
+{
+    background-color: #3F72AF;
+    color: white;
+    font-weight: bold;
+}
+
+.current
+{
+    background-color: #112D4E;
+    color: white;
+    font-weight: bold;
+}
+
+/* SHOP */
+
+.shop
+{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
